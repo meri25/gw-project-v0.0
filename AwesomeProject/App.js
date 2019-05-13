@@ -23,9 +23,4 @@ const styles = StyleSheet.create({
     // aliginItems: 'center',
     justifyContent: 'center',
   },
-  // main: {
-  //   flex: 1,
-  //   maxWidth: 400,
-  //   aliginItems: 'center'
-  // }
 });

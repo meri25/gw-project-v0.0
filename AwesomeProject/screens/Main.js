@@ -1,20 +1,27 @@
 import React from 'react';
-import { StyleSheet, Text, View} from 'react-native';
+import { StyleSheet, Text, View, Image} from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#fff',
+    flex: 1,
+    marginTop: 70,
+    padding: 20,
   },
-  massage: {
-    color: '#000',
+  coffee: {
+    // backgroundColor: 'powderblue',
+    alignItems: 'center',
   },
-})
+  // coffee_quantity: {
+  //   color: '#3e2723',
+  //   fontSize: 70,
+  // }
+});
 
 export default class Main extends React.Component {
   render() {
     return(
       <View style= { styles.container }>
-        <Text style= { styles.massage }>this is new app</Text>
+          <Image style= { styles.coffee} source={ require('../assets/coffee.png')}></Image>
       </View>
     )
   }
