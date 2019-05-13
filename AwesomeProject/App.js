@@ -1,14 +1,15 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-import TodoInout from './screens/TodoInput';
+// import TodoInout from './screens/TodoInput';
+import Main from './screens/Main'
 
 export default class App extends React.Component {
   render() {
     return (
       <View style= { styles.container } >
         <View style= { styles.main } >
-          <TodoInout />
+          <Main />
         </View>
       </View>
     );
@@ -19,12 +20,12 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    aliginItems: 'center',
+    // aliginItems: 'center',
     justifyContent: 'center',
   },
-  main: {
-    flex: 1,
-    maxWidth: 400,
-    aliginItems: 'center'
-  }
+  // main: {
+  //   flex: 1,
+  //   maxWidth: 400,
+  //   aliginItems: 'center'
+  // }
 });
